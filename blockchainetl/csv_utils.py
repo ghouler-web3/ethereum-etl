@@ -32,7 +32,7 @@ def set_max_field_size_limit():
     decrement = True
     while decrement:
         # decrease the maxInt value by factor 10
-        # as long as the OverflowError occurs.
+        # as long as the OverflowError occurs!
 
         decrement = False
         try:
